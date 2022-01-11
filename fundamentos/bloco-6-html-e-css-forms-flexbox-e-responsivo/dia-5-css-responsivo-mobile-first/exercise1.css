@@ -11,7 +11,7 @@ html {
 }
 
 body {
-font-size: 18px;
+font-size: 20px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 margin: 1%;
 }
@@ -21,7 +21,7 @@ article {
 }
 
 h1 {
-font-size: 30px;
+font-size: 1.6em;
 }
 
 h2 {
@@ -51,13 +51,30 @@ figcaption {
 @media screen and (min-width: 752px) {
   body {
     background-color: antiquewhite;
-    font-size: 22px;
-    margin: 2%;
+    font-size: 1.4em;
+    margin: 5%;
   }
   img {
-    max-width: 45%;
-    margin-right: 4.5%
+    max-width: 150%;
+    margin-right: 4,5%
+    }
+
+section {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
-  
+
+}
+
+@media screen and (min-width: 1008px) {
+  body {
+    background-color:aliceblue;
+    font-size: 1.6em;
+    margin: 5%;
+  }
+  h1 {
+    font-size: 1.8em;
+    }
 
 }

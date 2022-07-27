@@ -18,5 +18,5 @@ function calculaIMC() {
 calculaIMC();
 
 
-//requisito 02 alteração no package.json
+//requisito 02 alteração no package.json npm run imc.js
 // "imc": "node imc.js"
